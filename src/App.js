@@ -3,7 +3,7 @@ import axios from "axios";
 import SearchTextList from "./components/SearchTextList";
 import TrackProductList from "./components/TrackedProductList";
 import PriceHistoryTable from "./components/PriceHistoryTable";
-axios.defaults.baseURL = "https://web-scraper-ceoo.onrender.com";
+axios.defaults.baseURL = "https://web-scraper-amazon.onrender.com";
 
 const App = () => {
   const [searchHistory, setSearchHistory] = useState([]);
