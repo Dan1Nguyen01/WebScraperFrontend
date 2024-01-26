@@ -73,7 +73,7 @@ const ProductDetailsPage = ({ product }) => {
   return (
     <div className="p-4">
       <h2 className="text-2xl font-semibold mb-4">{product.name}</h2>
-      <img src={product.img} alt="Product" className="mb-4" />
+      <img src={product.img[0]} alt="Product" className="mb-4" />
       <p className="mb-2">
         URL:{" "}
         <a
